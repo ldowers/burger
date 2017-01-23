@@ -1,19 +1,29 @@
-li {
-    background: #FAEBD7;
-    margin: 5px;
-    padding: 5px;
+body {
+    background: #FFE175;
 }
 
-.label {
-    font-weight: bold;
+.burgerImage {
+    height: 150px;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
 }
 
-.create-update-form {
-    background: aqua;
-    margin: 5px;
-    padding: 5px;
+#title,
+#burgerNameForm,
+#instructions {
+    text-align: center;
 }
 
-.form-group {
-    margin-bottom: 5px;
+#title {
+    color: red;
+    margin-bottom: 20px;
+}
+
+#devourItButton {
+    padding-top: 10px;
+}
+
+#devouredBurger {
+    color: grey;
 }
